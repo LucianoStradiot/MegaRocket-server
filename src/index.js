@@ -26,3 +26,5 @@ mongoose.connect(process.env.DB_URL, { maxPoolSize: process.env.MONGO_POOLSIZE |
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
+
+export default app;
